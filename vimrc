@@ -34,7 +34,7 @@ set hlsearch            " highlight matches
 
 
 
-to discuss:
+" to discuss:
 
 
 set foldenable          " enable folding
