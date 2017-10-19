@@ -28,7 +28,12 @@ set tabstop=4        "number of visual spaces per TAB
 set shiftwidth=4 "size of indent with tab
 set softtabstop=0 noexpandtab "if you are using tab character inside your source code - these are defensive settings to avoid conversion
 
+" ------- Automatically sets Brackets -------
+inoremap {<cr> {<cr>}<c-o><s-o>
+inoremap [<cr> [<cr>]<c-o><s-o>
+inoremap (<cr> (<cr>)<c-o><s-o>
 
+" ---------Searching ----------
 set incsearch           " search as characters are entered
 set hlsearch            " highlight matches
 
@@ -44,3 +49,4 @@ nnoremap <space> za
 "space open/closes folds
 set foldmethod=indent   " fold based on indent level
 
+set smartindent         " indents your code automatically 
