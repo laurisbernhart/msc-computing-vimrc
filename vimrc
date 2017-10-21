@@ -39,7 +39,16 @@ set hlsearch            " highlight matches
 
 
 
-" to discuss:
+" to DISCUSS:
+
+" ad Plugins:
+" easymotion
+" lightline
+" vim surround
+" youcompleteme /+ clang complete
+" auto-pairs or similar
+" nerd tree
+" ctrlp vim
 
 
 set foldenable          " enable folding
