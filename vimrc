@@ -37,7 +37,10 @@ inoremap (<cr> (<cr>)<c-o><s-o>
 set incsearch           " search as characters are entered
 set hlsearch            " highlight matches
 
-
+" --------Line length-----------
+highlight OverLength ctermbg=darkred ctermfg=white guibg=#FFD9D9
+match OverLength /\%>80v.\+/
+"highlights all line chars over 80 characters (best practice length) in red
 
 " to DISCUSS:
 
