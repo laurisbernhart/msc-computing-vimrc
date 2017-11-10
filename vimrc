@@ -29,10 +29,15 @@ set shiftwidth=4 "size of indent with tab
 set softtabstop=0 noexpandtab "if you are using tab character inside your source code - these are defensive settings to avoid conversion
 
 " ------- Automatically sets Brackets -------
-inoremap {<cr> {<cr>}<c-o><s-o>
-inoremap [<cr> [<cr>]<c-o><s-o>
-inoremap (<cr> (<cr>)<c-o><s-o>
 
+let s:pairs={
+    \'<':'>',
+    \'{':'}',
+    \'[':']',
+    \'(':')',
+    \'"':'"',
+    \''':''',
+    /}
 " ---------Searching ----------
 set incsearch           " search as characters are entered
 set hlsearch            " highlight matches
