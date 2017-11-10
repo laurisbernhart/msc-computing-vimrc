@@ -64,3 +64,4 @@ nnoremap <space> za
 set foldmethod=indent   " fold based on indent level
 
 set smartindent         " indents your code automatically 
+
