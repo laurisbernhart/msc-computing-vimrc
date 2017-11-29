@@ -30,14 +30,11 @@ set softtabstop=0 noexpandtab "if you are using tab character inside your source
 
 " ------- Automatically sets Brackets -------
 
-let s:pairs={
-    \'<':'>',
-    \'{':'}',
-    \'[':']',
-    \'(':')',
-    \'"':'"',
-    \''':''',
-    /}
+inoremap {<cr> {<cr>}<c-o><s-o>   
+inoremap [<cr> [<cr>]<c-o><s-o>
+inoremap (<cr> (<cr>)<c-o><s-o>
+
+
 " ---------Searching ----------
 set incsearch           " search as characters are entered
 set hlsearch            " highlight matches
