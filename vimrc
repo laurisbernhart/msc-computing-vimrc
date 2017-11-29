@@ -40,19 +40,6 @@ set incsearch           " search as characters are entered
 set hlsearch            " highlight matches
 
 
-
-" to DISCUSS:
-
-" ad Plugins:
-" easymotion
-" lightline
-" vim surround
-" youcompleteme /+ clang complete
-" auto-pairs or similar
-" nerd tree
-" ctrlp vim
-
-
 set foldenable          " enable folding
 set foldlevelstart=10   " open most folds by default
 set foldnestmax=10      " 10 nested fold max
